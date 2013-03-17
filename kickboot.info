@@ -1,0 +1,26 @@
+name = kickboot
+description = Kickstart Bootstrap subtheme
+version = 0.1
+core = 7.x
+base theme = bootstrap
+
+regions[user_bar]		= 'User Bar'
+regions[headertop]      = 'Header Top'
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Content Top'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[pre_content]    = 'Pre Content'
+regions[banner_100]     = 'Banner 100'
+regions[sidebar_second] = 'Secondary'
+regions[footer_social]  = 'Footer Social'
+regions[footer_nav]     = 'Footer Navigation'
+regions[footer]         = 'Footer'
+
+stylesheets[all][] = kickboot_style.css
+scripts[] = js/bootstrap-tooltip.js 
+
+settings[toggle_name] = 0
+settings[toggle_search] = 1
